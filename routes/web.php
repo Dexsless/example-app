@@ -27,3 +27,6 @@ Route::get('/ListKarakterEPEP', function() {
     $biasa = ['Hayato','Caroline','Kelly','Moco'];
     return view('ListKarakterEPEP', compact('king', 'biasa'));
 });
+Route::get('/halaman2', function() {
+    return view('animals');
+});
