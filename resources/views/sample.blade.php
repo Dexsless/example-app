@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    Nama : {{$nama}}
+    <h1>Hello World</h1>
+    <h3>Nama : {{$nama2}}</h3>
 </body>
 </html>
